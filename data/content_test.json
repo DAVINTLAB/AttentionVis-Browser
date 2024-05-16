@@ -1,0 +1,121 @@
+{
+	"version": "1.0.0",
+	"lastUpdated": "2024-05-13",
+	"baseSchemaVersion": "1.0.0",
+	"notes": "First version of the dataset. It contains 3 entries.",
+	"entries": [
+    {
+        "id": "khan_execute_2022",
+        "title": "EXECUTE: Exploring Eye Tracking to Support E-learning",
+        "year": 2022,
+        "authors": "Khan, Ahsan Raza; Khosravi, Sara; Hussain, Sajjad; Ghannam, Rami; Zoha, Ahmed; Imran, Muhammad Ali",
+        "references": [
+            "Khan et al. \"Execute: Exploring eye tracking to support e-learning\". In: Proceedings of the IEEE Global Engineering Education Conference (EDUCON), 2022, pp. 670\u2013676"
+        ],
+        "urls": [
+            "https://doi.org/10.1109/EDUCON52537.2022.9766506"
+        ],
+        "categories": [
+            "domain-education",
+            "topic-attention-monitoring",
+            "method-svm",
+            "method-rf",
+            "method-dt",
+            "method-mixed",
+            "method-other",
+            "data-input-webcam",
+            "data-input-monitor",
+            "data-input-mixed",
+            "features-eye-moviments",
+            "task-evaluation-metrics",
+            "task-comparison",
+            "task-mixed",
+            "vis-matrix",
+            "vis-dispersion",
+            "vis-scanpath",
+            "vis-heatmap",
+            "vis-mixed"
+        ],
+        "domain-details": "Online classes",
+        "topic-details": "Improvement of the learning/education process",
+        "method-details": "Logistic Regression, SVM, polynomial regression, Decision Tree, Random Forest,  Extra Trees,  Multi-layer Perceptron",
+        "data-input-details": "webcam, screenshot/screenshare",
+        "features-details": "eye-movements",
+        "task-details": "accuracy, evaluation/comparison of ML classifiers",
+        "vis-details": "confusion matrix , dispersion, scanpath (saccades), heatmap"
+    },
+    {
+        "id": "abate_attention_2021",
+        "title": "Attention monitoring for synchronous distance learning",
+        "year": 2021,
+        "authors": "Andrea F. Abate and Lucia Cascone and Michele Nappi and Fabio Narducci and Ignazio Passero",
+        "references": [
+            "Abate et al. \"Attention monitoring for synchronous distance learning\", Future Generation Computer Systems, vol. 125, 2021, pp. 774\u2013784"
+        ],
+        "urls": [
+            "https://doi.org/10.1016/j.future.2021.07.026"
+        ],
+        "categories": [
+            "domain-education",
+            "topic-attention-monitoring",
+            "method-cnn",
+            "data-input-webcam",
+            "data-input-monitor",
+            "data-input-mixed",
+            "features-facial-expressions",
+            "features-eye-moviments",
+            "features-mixed",
+            "task-pattern-recognition",
+            "task-evaluation-metrics",
+            "task-comparison",
+            "task-insights",
+            "task-mixed",
+            "vis-line",
+            "vis-histogram",
+            "vis-heatmap",
+            "vis-mixed"
+        ],
+        "domain-details": "Online classes",
+        "topic-details": "Improvement of the learning/education process",
+        "method-details": "CNN",
+        "data-input-details": "webcam, screenshot/screenshare",
+        "features-details": "facial expressions, eye-movements",
+        "task-details": "accuracy, eye patterns, correlation between features and relevant insights",
+        "vis-details": "line, histogram, heatmap"
+    },
+    {
+        "id": "madsen_synchronized_2021",
+        "title": "Synchronized eye movements predict test scores in online video education",
+        "year": 2021,
+        "authors": "Madsen, Jens and J\u00falio, Sara U. and Gucik, Pawel J. and Steinberg, Richard and Parra, Lucas C.",
+        "references": [
+            "Madsen et al. \"Synchronized eye movements predict test scores in online video education\", Proceedings of the National Academy of Sciences, vol. 118\u20135, fev. 2021"
+        ],
+        "urls": [
+            "https://doi.org/10.1073/pnas.2016980118"
+        ],
+        "categories": [
+            "domain-education",
+            "topic-attention-monitoring",
+            "method-other",
+            "data-input-webcam",
+            "data-input-text",
+            "data-input-eye-tracker",
+            "data-input-mixed",
+            "features-eye-moviments",
+            "task-pattern-recognition",
+            "task-comparison",
+            "task-mixed",
+            "vis-line",
+            "vis-scatter",
+            "vis-mixed"
+        ],
+        "domain-details": "Online and Face-to-face classes",
+        "topic-details": "Improvement of the learning/education process",
+        "data-input-details": "webcam, eye tracker, forms",
+        "features-details": "eye-movements",
+        "task-details": "data analysis, eye patterns",
+        "vis-details": "line, scatter plot"
+    }
+]
+}

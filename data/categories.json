@@ -1,0 +1,426 @@
+{
+	"version": "1.0.0",
+	"lastUpdated": "2024-05-13",
+	"notes": "First public release",
+	"categories": [
+		{
+			"type": "category",
+			"title": "domain",
+			"description": "Application Domain",
+			"childrenDescription": "Application Domain: ",
+			"freeTextDetails": true,
+			"entries": [
+				{
+					"type": "category-entry",
+					"title": "domain-education",
+					"description": "Education",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-graduation-cap fa-lg\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "domain-business",
+					"description": "Business",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-suitcase fa-lg\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+                    "title": "domain-cybersecurity",
+                    "description": "Cybersecurity",
+                    "content": "<span class=\"content-entry-icon\"><i class=\"fa fa-shield fa-lg\"></i></span>"
+				}
+			]
+		},
+		{
+			"type": "category",
+			"title": "topic",
+			"description": "Research Topic",
+			"childrenDescription": "Research Topic: ",
+			"freeTextDetails": true,
+			"entries": [
+				{
+					"type": "category-entry",
+					"title": "topic-cheating-detection",
+					"description": "Cheating Detection",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-exclamation-triangle fa-lg\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "topic-attention-monitoring",
+					"description": "Attention Monitoring",
+					"content": "<span class=\"fa fa-crosshairs fa-lg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "topic-engagement",
+					"description": "Engagement Level",
+					"content": "<span class=\"content-entry-icon\"><i class=\"glyphicon glyphicon-scale\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "topic-privacy",
+					"description": "Privacy User",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-user-secret fa-lg\"></i></span>"
+				}
+			]
+		},
+		{
+			"type": "category",
+			"title": "method",
+			"description": "Machine Learning Method",
+			"childrenDescription": "ML Method(s): ",
+			"freeTextDetails": true,
+			"entries": [
+				{
+					"type": "category-entry",
+					"title": "method-cnn",
+					"description": "CNN",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/method-cnn.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "method-svm",
+					"description": "SVM",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/method-svm.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "method-rf",
+					"description": "Random Forest",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/method-rf.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "method-rnn",
+					"description": "RNN",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/method-rnn.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "method-dt",
+					"description": "Decision Tree",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/method-dt.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "method-dnn",
+					"description": "DNN",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/method-dnn.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "method-generic",
+					"description": "ML General",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/method-ml.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "method-mixed",
+					"description": "Mixed",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/method-mixed4.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "method-other",
+					"description": "Other Method",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/method-other.svg\"></span>"
+				}
+			]
+		},
+		{
+			"type": "category",
+			"title": "data-input",
+			"description": "Data Input",
+			"childrenDescription": "Data Input Device(s): ",
+			"freeTextDetails": true,
+			"entries": [
+				{
+					"type": "category-entry",
+					"title": "data-input-webcam",
+					"description": "Webcam",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-video-camera fa-lg\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "data-input-mic",
+					"description": "Microphone",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-microphone fa-lg\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "data-input-logs",
+					"description": "System Logs",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-file-code-o fa-lg\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "data-input-keyboard",
+					"description": "Keyboard",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-keyboard-o fa-lg\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "data-input-mouse",
+					"description": "Mouse",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-mouse-pointer fa-lg\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "data-input-text",
+					"description": "Form",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-file-text-o fa-lg\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "data-input-eye-tracker",
+					"description": "Eye Tracker",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/data-input-eye-tracking.svg\" style=\"width: 22px; height: 22px;\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "data-input-monitor",
+					"description": "Screenshot/Screenshare",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-window-maximize fa-lg\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "data-input-mixed",
+					"description": "Mixed",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/mixed-3.svg\"></span>"
+				}
+			]
+		},
+		{
+			"type": "category",
+			"title": "features",
+			"description": "Webcam Features",
+			"childrenDescription": "Webcam Features: ",
+			"freeTextDetails": true,
+			"entries": [
+				{
+					"type": "category-entry",
+					"title": "features-facial-expressions",
+					"description": "Facial Expressions",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/features-face.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "features-head-position",
+					"description": "Head Position",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/features-head.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "features-eye-moviments",
+					"description": "Eye movements",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/features-eye.svg\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "features-objects",
+					"description": "Objects",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/features-phone-4.svg\" style=\"width: 22px; height: 22px;\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "features-body-pose",
+					"description": "Body Pose",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/body.svg\" style=\"width: 22px; height: 22px;\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "features-mixed",
+					"description": "Mixed",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/mixed-3.svg\"></span>"
+				}
+			]
+		},
+		{
+			"type": "category",
+			"title": "task",
+			"description": "Purposes of Visualization",
+			"childrenDescription": "Purposes of Data Visualization: ",
+			"freeTextDetails": true,
+			"entries": [
+				{
+					"type": "category-entry",
+					"title": "task-pattern-recognition",
+					"description": "Pattern Recognition",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-th fa-lg\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "task-evaluation-metrics",
+					"description": "Evaluation Metrics",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-tasks fa-lg\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "task-comparison",
+					"description": "Comparison",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-list-ol fa-lg\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "task-insights",
+					"description": "Insights",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-flag fa-lg\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "task-explanation",
+					"description": "Explanation",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-commenting fa-lg\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "task-other",
+					"description": "Other Task",
+					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-ellipsis-h fa-lg\"></i></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "task-mixed",
+					"description": "Mixed",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/mixed-3.svg\"></span>"
+				}
+			]
+		},
+		{
+			"type": "category",
+			"title": "vis",
+			"description": "Visual Representation",
+			"childrenDescription": "Visual Representation: ",
+			"freeTextDetails": true,
+			"entries": [
+				{
+					"type": "category-entry",
+					"title": "vis-donut",
+					"description": "Pie/Donut",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/plot-pie.png\" style=\"width: 20px; height: 20px;\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "vis-line",
+					"description": "Line",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/plot-line.png\" style=\"width: 20px; height: 20px;\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "vis-bar",
+					"description": "Bar Chart",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/plot-bar.png\" style=\"width: 20px; height: 20px;\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "vis-histogram",
+					"description": "Histogram",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/histo.png\" style=\"width: 20px; height: 20px;\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "vis-matrix",
+					"description": "Confusion Matrix",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/matriz2.png\" style=\"width: 20px; height: 20px;\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "vis-dispersion",
+					"description": "Dispersion",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/plot-scatter.png\" style=\"width: 20px; height: 20px;\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "vis-scanpath",
+					"description": "Scanpath",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/scan2.png\" style=\"width: 20px; height: 20px;\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "vis-heatmap",
+					"description": "Heatmap",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/heat.png\" style=\"width: 20px; height: 20px;\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "vis-flow",
+					"description": "Flow Diagram/Sankey",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/plot-sankey.png\" style=\"width: 20px; height: 20px;\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "vis-radar",
+					"description": "Radar Chart",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/plot-radar.png\" style=\"width: 20px; height: 20px;\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "vis-radial",
+					"description": "Radial Chart",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/radial.png\" style=\"width: 20px; height: 18px;\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "vis-area",
+					"description": "Area Chart",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/plot-area-stacked.png\" style=\"width: 20px; height: 20px;\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "vis-scatter",
+					"description": "Scatter Plot",
+					"content": "<span class=\"content-entry-icon\"><img src=\"images/plot-scatter-axes.png\" style=\"width: 20px; height: 20px;\"></span>"
+				},
+				{
+					"type": "category-entry",
+					"title": "vis-mixed",
+					"description": "Mixed",
+					"content": "\n<span class=\"content-entry-icon\"><img src=\"images/mixed-3.svg\"></span>"
+				}
+			]
+		}
+	],
+	"freeTextCategories": [
+		{
+			"type": "free-text-category-entry",
+			"title": "domain-details",
+			"parentCategoryTitle": "domain",
+			"description": "Application Domain/Task Details"
+		},
+		{
+			"type": "free-text-category-entry",
+			"title": "topic-details",
+			"parentCategoryTitle": "topic",
+			"description": "Research Topic Details"
+		},
+		{
+			"type": "free-text-category-entry",
+			"title": "method-details",
+			"parentCategoryTitle": "method",
+			"description": "Machine Learning Method Details"
+		},
+		{
+			"type": "free-text-category-entry",
+			"title": "data-input-details",
+			"parentCategoryTitle": "data-input",
+			"description": "Input Data Details"
+		},
+		{
+			"type": "free-text-category-entry",
+			"title": "features-details",
+			"parentCategoryTitle": "features",
+			"description": "Webcam Features Details"
+		},
+		{
+			"type": "free-text-category-entry",
+			"title": "task-details",
+			"parentCategoryTitle": "task",
+			"description": "Purposes of Data Visualization"
+		},
+		{
+			"type": "free-text-category-entry",
+			"title": "vis-details",
+			"parentCategoryTitle": "vis",
+			"description": "Visualization Details"
+		}
+	]
+}
