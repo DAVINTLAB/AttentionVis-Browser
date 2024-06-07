@@ -31,7 +31,7 @@
             "task-comparison",
             "task-mixed",
             "vis-matrix",
-            "vis-dispersion",
+            "vis-fixation",
             "vis-scanpath",
             "vis-heatmap",
             "vis-mixed"
@@ -42,7 +42,7 @@
         "data-input-details": "Webcam, screenshot/screenshare",
         "features-details": "Eye-movements",
         "task-details": "Accuracy, evaluation/comparison of ML classifiers",
-        "vis-details": "Confusion matrix , dispersion, scanpath (saccades), heatmap"
+        "vis-details": "Confusion matrix , fixation plot, scanpath (saccades), heatmap"
     },
     {
         "id": "abate_attention_2021",
@@ -381,7 +381,7 @@
             "features-eye-moviments",
             "features-body-pose",
             "features-mixed",
-            "task-explanation",
+            "task-insights",
             "vis-line"
         ],
         "domain-details": "Online classes",
@@ -414,7 +414,7 @@
             "features-head-position",
             "features-eye-moviments",
             "features-mixed",
-            "task-explanation",
+            "task-insights",
             "task-other",
             "task-mixed",
             "vis-bar",
@@ -608,7 +608,7 @@
             "features-body-pose",
             "features-mixed",
             "task-pattern-recognition",
-            "task-explanation",
+            "task-insights",
             "task-other",
             "task-mixed",
             "vis-donut",
@@ -879,7 +879,6 @@
             "features-head-position",
             "task-pattern-recognition",
             "task-insights",
-            "task-explanation",
             "task-mixed",
             "vis-line",
             "vis-bar",
@@ -1076,10 +1075,10 @@
             "method-other",
             "data-input-webcam",
             "features-eye-moviments",
-            "task-explanation",
+            "task-insights",
             "vis-line",
             "vis-matrix",
-            "vis-dispersion",
+            "vis-fixation",
             "vis-heatmap",
             "vis-scatter",
             "vis-mixed"
@@ -1090,7 +1089,7 @@
         "data-input-details": "Webcam",
         "features-details": "Eye-movements",
         "task-details": "Dataset distribution",
-        "vis-details": "Line, confusion matrix , dispersion, heatmap, scatter plot"
+        "vis-details": "Line, confusion matrix , fixation plot, heatmap, scatter plot"
     },
     {
         "id": "ozgen2021cheating",
@@ -1451,6 +1450,7 @@
             "features-head-position",
             "features-eye-moviments",
             "features-mixed",
+            "task-insights",
             "vis-line"
         ],
         "domain-details": "Integrity of online examinations",

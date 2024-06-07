@@ -324,8 +324,8 @@
 				},
 				{
 					"type": "category-entry",
-					"title": "vis-dispersion",
-					"description": "Dispersion",
+					"title": "vis-fixation",
+					"description": "Fixation Plot",
 					"content": "<span class=\"content-entry-icon\"><img src=\"images/plot-scatter.png\" style=\"width: 20px; height: 20px;\"></span>"
 				},
 				{
