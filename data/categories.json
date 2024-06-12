@@ -58,7 +58,7 @@
 				{
 					"type": "category-entry",
 					"title": "topic-privacy",
-					"description": "Privacy User",
+					"description": "User Privacy",
 					"content": "<span class=\"content-entry-icon\"><i class=\"fa fa-user-secret fa-lg\"></i></span>"
 				}
 			]
