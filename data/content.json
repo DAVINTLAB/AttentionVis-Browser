@@ -114,7 +114,7 @@
         "topic-details": "Improvement of the learning/education process",
         "data-input-details": "Webcam, eye tracker, forms",
         "features-details": "Eye-movements",
-        "task-details": "Data analysis, eye patterns",
+        "task-details": "Data-driven experiment analysis, eye patterns",
         "vis-details": "Line, scatter plot"
     },
     {
@@ -149,7 +149,7 @@
         "method-details": "Random Forest",
         "data-input-details": "Webcam, mouse, logs",
         "features-details": "Head position",
-        "task-details": "Dataset distribution, data analysis",
+        "task-details": "Dataset distribution, data-driven experiment analysis",
         "vis-details": "Pie/donut, histogram"
     },
     {
@@ -1021,7 +1021,7 @@
         "method-details": "DNN",
         "data-input-details": "Webcam, microphone",
         "features-details": "Head position, facial expressions, eye-movements, objects",
-        "task-details": "Data analysis",
+        "task-details": "Data-driven experiment analysis",
         "vis-details": "Histogram"
     },
     {
